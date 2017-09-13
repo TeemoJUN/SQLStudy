@@ -1,11 +1,13 @@
-﻿# MYSQL
+﻿# README
 
 ## 来自《MySQL必知必会》书籍上的全部代码，自己手写一遍
 
 
 --tips为有用的知识点(来自网上搜索或书籍)
-
-
+1.
+    create.sql和populate.sql为随书的源代码
+    [随书的源代码][1]
+***很长--很有用***
 ```SQL
 --常用操作
 
@@ -379,8 +381,6 @@ ORDER BY ORDERTOTAL;
 --------------------------------------
 
 
-
-
 -------------------------------------第十四章----使用子查询-
 
 
@@ -690,27 +690,6 @@ CREATE TABLE orders
 ) ENGINE=InnoDB;
 
 ALTER TABLE orderitems ADD CONSTRAINT fk_orderitems_orders FOREIGN KEY (order_num) REFERENCES orders (order_num);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---------第二十二章--使用视图
 
@@ -1154,3 +1133,6 @@ set password for username=Password('newpassword');
 analyze table tablename;
 
 ```
+
+
+  [1]: http://www.forta.com/books/0672327120/
